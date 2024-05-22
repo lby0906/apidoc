@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://101.200.85.171:3306/platform?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://101.200.85.171:3306/apidoc?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root
     password: sanyuan027
     driver-class-name: com.mysql.cj.jdbc.Driver
