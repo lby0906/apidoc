@@ -7,6 +7,10 @@
     <groupId>fun.apidoc</groupId>
     <artifactId>apidoc</artifactId>
     <version>v1.0</version>
+    <packaging>jar</packaging>
+
+    <name>apidoc</name>
+    <description>api management platform</description>
 
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -32,6 +36,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <!--springSecurity-->
@@ -43,6 +48,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>

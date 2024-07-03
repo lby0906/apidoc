@@ -11,26 +11,18 @@ import org.springframework.web.bind.annotation.RestController;
  * @create: 2024-05-22 16:45
  **/
 @RestController
-@RequestMapping("test")
+@RequestMapping("/common")
 public class TestController {
 
-    @GetMapping("/echo")
-    public String demo() {
-        return "示例返回";
+    @GetMapping("/index")
+    public String index(){
+        return "index";
     }
 
-    @GetMapping("/home")
-    public String home() {
-        return "我是首页";
+    @GetMapping("/inner")
+    public String inner(){
+        return "inner";
     }
 
-    @GetMapping("/admin")
-    public String admin() {
-        return "我是管理员";
-    }
 
-    @GetMapping("/normal")
-    public String normal() {
-        return "我是普通用户";
-    }
 }
